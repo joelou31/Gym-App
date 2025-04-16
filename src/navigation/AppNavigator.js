@@ -5,6 +5,8 @@ import { DashboardScreen } from '../screens/DashboardScreen';
 import { WorkoutScreen } from '../screens/WorkoutScreen';
 import { ProgressScreen } from '../screens/ProgressScreen';
 import { CustomRoutinesScreen } from '../screens/CustomRoutinesScreen';
+import { ExerciseDetailScreen } from '../screens/ExerciseDetailScreen';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +22,8 @@ export const AppNavigator = () => {
         <Stack.Screen name="Workout" component={WorkoutScreen} />
         <Stack.Screen name="Progress" component={ProgressScreen} />
         <Stack.Screen name="CustomRoutines" component={CustomRoutinesScreen} />
+        <Stack.Screen name="ExerciseDetail" component={ExerciseDetailScreen} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );

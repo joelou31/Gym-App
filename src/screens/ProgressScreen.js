@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     opacity: 0.8,
   },
+  
   statsContainer: {
     flexDirection: 'row',
     justifyContent: 'space-around',
@@ -93,6 +94,7 @@ const styles = StyleSheet.create({
     padding: theme.spacing.md,
   },
   sectionTitle: {
+     color: '#FFFFFF',
     ...theme.typography.h2,
     marginBottom: theme.spacing.md,
   },
